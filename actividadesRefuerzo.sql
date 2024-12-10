@@ -84,6 +84,14 @@ FROM departamento
 ORDER BY presupuesto
 LIMIT 3;
 
+-- Cmbios Realizados
+SELECT
+	nombre AS 'Nombre Departamento'
+	presupuetso AS 'Presupuesto'
+FROM departamento
+ORDER BY presupuesto DESC
+LIMIT 5;
+
 -- Actividad 15
 SELECT 
     nombre AS 'Nombre Departamento', 
