@@ -264,3 +264,4 @@ FROM departamento d
 LEFT JOIN empleado e ON d.id = e.id_departamento
 WHERE d.presupuesto > 200000
 GROUP BY d.id;
+-- HOLA SARA 
